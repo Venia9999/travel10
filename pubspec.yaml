@@ -1,0 +1,75 @@
+name: travel
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+
+    - assets/images/1.jpeg
+    - assets/images/2.jpeg
+    - assets/images/3.jpeg
+    - assets/images/4.jpg
+    - assets/images/5.jpg
+
+    # ===== WISATA ALAM =====
+    - assets/images/kuta.jpg
+    - assets/images/rajaampat.jpg
+    - assets/images/banda_neira.jpg
+    - assets/images/pulau_lengkuas.jpg
+    - assets/images/danau_toba.jpg
+    - assets/images/pantai_penyusuk.jpg
+
+    # ===== WISATA KULINER =====
+    - assets/images/gudeg.jpg
+    - assets/images/rawon.jpg
+    - assets/images/pempek.jpg
+    - assets/images/rendang.jpg
+    - assets/images/otak_otak.jpg
+    - assets/images/mie_bangka.jpg
+    - assets/images/soto_banjar.jpg
+    - assets/images/sate_lilit.jpg
+    - assets/images/papeda.jpg
+
+    # ===== WISATA BUDAYA =====
+    - assets/images/malioboro.jpg
+    - assets/images/keraton.jpg
+    - assets/images/borobudur.jpg
+    - assets/images/prambanan.jpg
+    - assets/images/marlborough.jpg
+    - assets/images/fort_rotterdam.jpg
+    - assets/images/gedung_merdeka.jpg
+    - assets/images/tugu_proklamasi.jpg
+    - assets/images/rengasdengklok.jpg
+
+
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
